@@ -2,6 +2,10 @@ const $ = new Env('亿享云APP签到');
 const notify = $.isNode() ? require('./sendNotify') : '';
 let status;
 status = (status = ($.getval("yxystatus") || "1")) > 1 ? `${status}` : ""; // 账号扩展字符
+
+yxyPhone:19851670962#dinocavallone12580
+export yxyPhone='19851670962#dinocavallone12580
+
 let yxyPhoneArr = [];
 let yxyPhone = $.isNode() ? (process.env.yxyPhone ? process.env.yxyPhone : "") : ($.getdata('yxyPhone') ? $.getdata('yxyPhone') : "");
 let yxyPhones = "";
